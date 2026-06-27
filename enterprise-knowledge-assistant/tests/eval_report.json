@@ -1,0 +1,469 @@
+{
+  "metrics": {
+    "total_questions": 24,
+    "in_domain_questions": 20,
+    "out_of_domain_controls": 4,
+    "source_accuracy": 0.25,
+    "average_relevance": 0.16666666666666666,
+    "hallucination_rate": 0.5
+  },
+  "details": [
+    {
+      "id": 1,
+      "question": "How many paid leaves do employees get per year?",
+      "expected_source": "HR_Policy.pdf",
+      "generated_answer": "According to the HR_Policy.pdf, Section 2: Comprehensive Leave Policy, specifically subsection 2.1 Annual Leave Allowance, all permanent employees are entitled to 24 paid leaves per year. (Source: HR_Policy.pdf, Page 1)",
+      "generated_sources": [
+        "HR_Policy.pdf",
+        "HR_Policy.pdf",
+        "HR_Policy.pdf"
+      ],
+      "confidence_label": "Medium",
+      "confidence_score": 0.5158128177919326,
+      "source_match": true,
+      "relevance_score": 1.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "24",
+        "paid",
+        "leave",
+        "year"
+      ],
+      "matched_keywords": [
+        "24",
+        "paid",
+        "leave",
+        "year"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the work from home policy?",
+      "expected_source": "HR_Policy.pdf",
+      "generated_answer": "The Work From Home (WFH) policy, as stated in the HR_Policy.pdf, Section 3: Flexible Work & Remote Working, allows employees to work remotely up to 2 days per week, subject to alignment with their team's deliverables and manager's approval. Core operating hours are 10:00 AM to 4:00 PM IST, during which employees must be accessible on Slack and email. The remaining 3 days of the week must be worked from the designated company office location. Employees working from home must ensure they have a quiet, dedicated workspace and a high-speed internet connection.",
+      "generated_sources": [
+        "HR_Policy.pdf",
+        "IT_Security_Guide.pdf",
+        "HR_Policy.pdf"
+      ],
+      "confidence_label": "Medium",
+      "confidence_score": 0.56753946917661,
+      "source_match": true,
+      "relevance_score": 1.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "2 days",
+        "week",
+        "work",
+        "remotely"
+      ],
+      "matched_keywords": [
+        "2 days",
+        "week",
+        "work",
+        "remotely"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How many sick leaves do we get annually?",
+      "expected_source": "HR_Policy.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.4004444456694379,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "12 days",
+        "sick",
+        "leave"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 4,
+      "question": "What is the notice period for senior roles?",
+      "expected_source": "HR_Policy.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6947935682859989,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "60 days",
+        "senior",
+        "notice"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 5,
+      "question": "What is the refund policy for subscriptions?",
+      "expected_source": "Customer_FAQ.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.7136895662475798,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "full refund",
+        "30 days",
+        "partial",
+        "60 days"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 6,
+      "question": "What are the customer support hours?",
+      "expected_source": "Customer_FAQ.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.4608987540631485,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "monday to friday",
+        "9:00 am",
+        "6:00 pm",
+        "ist"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 7,
+      "question": "What is the SLA for critical support issues?",
+      "expected_source": "Customer_FAQ.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.7873228713161746,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "critical",
+        "resolved",
+        "4 hours"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 8,
+      "question": "How long does it take to process a data deletion request?",
+      "expected_source": "Customer_FAQ.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.5164671577250215,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "data deletion",
+        "processed",
+        "30 days"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 9,
+      "question": "What is the minimum character requirement for passwords?",
+      "expected_source": "IT_Security_Guide.pdf",
+      "generated_answer": "I could not find this information in the knowledge base.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.22848884301759215,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "minimum",
+        "12",
+        "characters"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 10,
+      "question": "Is VPN mandatory for remote access?",
+      "expected_source": "IT_Security_Guide.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6500117465299771,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "vpn",
+        "mandatory",
+        "remote"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 11,
+      "question": "How fast must a security incident be reported?",
+      "expected_source": "IT_Security_Guide.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.42969655558214864,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "reported",
+        "1 hour",
+        "discovery"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 12,
+      "question": "What are the four data classification levels?",
+      "expected_source": "IT_Security_Guide.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.4434045672179302,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 13,
+      "question": "What tools does SyncFlow integrate with?",
+      "expected_source": "Product_Manual.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6161678687819421,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "slack",
+        "jira",
+        "github",
+        "google workspace"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 14,
+      "question": "What is the monthly pricing of the Pro Tier of SyncFlow?",
+      "expected_source": "Product_Manual.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.7377388651537347,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "pro",
+        "999",
+        "month"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 15,
+      "question": "What are the API rate limits on the Pro plan?",
+      "expected_source": "Product_Manual.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6927583738973397,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "pro",
+        "1000",
+        "requests",
+        "hour"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 16,
+      "question": "How long is a buddy assigned to a new hire?",
+      "expected_source": "Onboarding_Guide.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.5057903617433543,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "buddy",
+        "first 30 days"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 17,
+      "question": "What is the duration of the probation period for new employees?",
+      "expected_source": "Onboarding_Guide.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.469723579727187,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "probation",
+        "3 months"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 18,
+      "question": "How long must corporate financial records be retained?",
+      "expected_source": "Compliance_Guidelines.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6639524742152466,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "financial",
+        "7 years"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 19,
+      "question": "What is the audit schedule for internal and external audits?",
+      "expected_source": "Compliance_Guidelines.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.5562310995511328,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "quarterly",
+        "internal",
+        "annual",
+        "external",
+        "audit"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 20,
+      "question": "Who conducts investigations under the whistleblower policy?",
+      "expected_source": "Compliance_Guidelines.pdf",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6613774332906512,
+      "source_match": false,
+      "relevance_score": 0.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "chief compliance officer",
+        "investigations"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 21,
+      "question": "What is the company dress code for office days?",
+      "expected_source": "none",
+      "generated_answer": "I could not find this information in the knowledge base.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.2999865656172385,
+      "source_match": true,
+      "relevance_score": 1.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "could not find",
+        "knowledge base"
+      ],
+      "matched_keywords": [
+        "could not find",
+        "knowledge base"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What are the rules for corporate credit card usage?",
+      "expected_source": "none",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.4245592055772705,
+      "source_match": true,
+      "relevance_score": 0.0,
+      "hallucinated": true,
+      "expected_keywords": [
+        "could not find",
+        "knowledge base"
+      ],
+      "matched_keywords": []
+    },
+    {
+      "id": 23,
+      "question": "How do I book a conference room in the office?",
+      "expected_source": "none",
+      "generated_answer": "I could not find this information in the knowledge base.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.2693169719377517,
+      "source_match": true,
+      "relevance_score": 1.0,
+      "hallucinated": false,
+      "expected_keywords": [
+        "could not find",
+        "knowledge base"
+      ],
+      "matched_keywords": [
+        "could not find",
+        "knowledge base"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What is the maternity leave policy for part-time contractors?",
+      "expected_source": "none",
+      "generated_answer": "Error: Groq API Rate Limit reached. Please try again later.",
+      "generated_sources": [],
+      "confidence_label": "Low",
+      "confidence_score": 0.6232671414457279,
+      "source_match": true,
+      "relevance_score": 0.0,
+      "hallucinated": true,
+      "expected_keywords": [
+        "could not find",
+        "knowledge base"
+      ],
+      "matched_keywords": []
+    }
+  ]
+}

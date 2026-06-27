@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "How many paid leaves do employees get per year?",
+    "expected_answer": "24 paid leaves annually",
+    "source_document": "HR_Policy.pdf",
+    "expected_keywords": ["24", "paid", "leave", "year"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 2,
+    "question": "What is the work from home policy?",
+    "expected_answer": "Employees are allowed to work remotely up to 2 days per week.",
+    "source_document": "HR_Policy.pdf",
+    "expected_keywords": ["2 days", "week", "work", "remotely"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 3,
+    "question": "How many sick leaves do we get annually?",
+    "expected_answer": "12 days of sick leave per year.",
+    "source_document": "HR_Policy.pdf",
+    "expected_keywords": ["12 days", "sick", "leave"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 4,
+    "question": "What is the notice period for senior roles?",
+    "expected_answer": "The notice period is 60 days for senior roles.",
+    "source_document": "HR_Policy.pdf",
+    "expected_keywords": ["60 days", "senior", "notice"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 5,
+    "question": "What is the refund policy for subscriptions?",
+    "expected_answer": "Full refund within 30 days, partial refund within 60 days.",
+    "source_document": "Customer_FAQ.pdf",
+    "expected_keywords": ["full refund", "30 days", "partial", "60 days"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 6,
+    "question": "What are the customer support hours?",
+    "expected_answer": "Monday to Friday, 9 AM to 6 PM IST.",
+    "source_document": "Customer_FAQ.pdf",
+    "expected_keywords": ["monday to friday", "9:00 am", "6:00 pm", "ist"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 7,
+    "question": "What is the SLA for critical support issues?",
+    "expected_answer": "Critical issues are resolved within 4 hours.",
+    "source_document": "Customer_FAQ.pdf",
+    "expected_keywords": ["critical", "resolved", "4 hours"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 8,
+    "question": "How long does it take to process a data deletion request?",
+    "expected_answer": "Data deletion requests are processed within 30 days of the request.",
+    "source_document": "Customer_FAQ.pdf",
+    "expected_keywords": ["data deletion", "processed", "30 days"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 9,
+    "question": "What is the minimum character requirement for passwords?",
+    "expected_answer": "Passwords must be a minimum of 12 characters.",
+    "source_document": "IT_Security_Guide.pdf",
+    "expected_keywords": ["minimum", "12", "characters"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 10,
+    "question": "Is VPN mandatory for remote access?",
+    "expected_answer": "Yes, VPN is mandatory for all remote access and public Wi-Fi networks.",
+    "source_document": "IT_Security_Guide.pdf",
+    "expected_keywords": ["vpn", "mandatory", "remote"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 11,
+    "question": "How fast must a security incident be reported?",
+    "expected_answer": "Security incidents must be reported to the security response team within 1 hour of discovery.",
+    "source_document": "IT_Security_Guide.pdf",
+    "expected_keywords": ["reported", "1 hour", "discovery"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 12,
+    "question": "What are the four data classification levels?",
+    "expected_answer": "Public, Internal, Confidential, and Restricted.",
+    "source_document": "IT_Security_Guide.pdf",
+    "expected_keywords": ["public", "internal", "confidential", "restricted"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 13,
+    "question": "What tools does SyncFlow integrate with?",
+    "expected_answer": "SyncFlow integrates with Slack, Jira, GitHub, and Google Workspace.",
+    "source_document": "Product_Manual.pdf",
+    "expected_keywords": ["slack", "jira", "github", "google workspace"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 14,
+    "question": "What is the monthly pricing of the Pro Tier of SyncFlow?",
+    "expected_answer": "The Pro Tier costs ₹999/month.",
+    "source_document": "Product_Manual.pdf",
+    "expected_keywords": ["pro", "999", "month"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 15,
+    "question": "What are the API rate limits on the Pro plan?",
+    "expected_answer": "The Pro plan is limited to 1000 requests/hour.",
+    "source_document": "Product_Manual.pdf",
+    "expected_keywords": ["pro", "1000", "requests", "hour"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 16,
+    "question": "How long is a buddy assigned to a new hire?",
+    "expected_answer": "A buddy is assigned for the first 30 days.",
+    "source_document": "Onboarding_Guide.pdf",
+    "expected_keywords": ["buddy", "first 30 days"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 17,
+    "question": "What is the duration of the probation period for new employees?",
+    "expected_answer": "The probation period is 3 months.",
+    "source_document": "Onboarding_Guide.pdf",
+    "expected_keywords": ["probation", "3 months"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 18,
+    "question": "How long must corporate financial records be retained?",
+    "expected_answer": "Financial and tax-related records must be retained for 7 years.",
+    "source_document": "Compliance_Guidelines.pdf",
+    "expected_keywords": ["financial", "7 years"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 19,
+    "question": "What is the audit schedule for internal and external audits?",
+    "expected_answer": "Quarterly internal audits and annual external audits.",
+    "source_document": "Compliance_Guidelines.pdf",
+    "expected_keywords": ["quarterly", "internal", "annual", "external", "audit"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 20,
+    "question": "Who conducts investigations under the whistleblower policy?",
+    "expected_answer": "Investigations are conducted by the Chief Compliance Officer.",
+    "source_document": "Compliance_Guidelines.pdf",
+    "expected_keywords": ["chief compliance officer", "investigations"],
+    "is_out_of_domain": false
+  },
+  {
+    "id": 21,
+    "question": "What is the company dress code for office days?",
+    "expected_answer": "I could not find this information in the knowledge base.",
+    "source_document": "none",
+    "expected_keywords": ["could not find", "knowledge base"],
+    "is_out_of_domain": true
+  },
+  {
+    "id": 22,
+    "question": "What are the rules for corporate credit card usage?",
+    "expected_answer": "I could not find this information in the knowledge base.",
+    "source_document": "none",
+    "expected_keywords": ["could not find", "knowledge base"],
+    "is_out_of_domain": true
+  },
+  {
+    "id": 23,
+    "question": "How do I book a conference room in the office?",
+    "expected_answer": "I could not find this information in the knowledge base.",
+    "source_document": "none",
+    "expected_keywords": ["could not find", "knowledge base"],
+    "is_out_of_domain": true
+  },
+  {
+    "id": 24,
+    "question": "What is the maternity leave policy for part-time contractors?",
+    "expected_answer": "I could not find this information in the knowledge base.",
+    "source_document": "none",
+    "expected_keywords": ["could not find", "knowledge base"],
+    "is_out_of_domain": true
+  }
+]
