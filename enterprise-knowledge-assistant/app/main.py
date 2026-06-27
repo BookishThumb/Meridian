@@ -7,6 +7,8 @@ from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
 from app.rag_pipeline import RAGPipeline
+import gradio as gr
+from ui.gradio_app import demo
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -146,3 +148,6 @@ def clear_session_memory(session_id: str):
         del session_memories[session_id]
         logger.info(f"Cleared session history for: {session_id}")
     return {"status": "success", "message": f"Session {session_id} history cleared."}
+
+# Mount Gradio UI
+app = gr.mount_gradio_app(app, demo, path="/")
